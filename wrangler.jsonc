@@ -1,0 +1,17 @@
+{
+  "name": "tvl-update-tracker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-23",
+  "triggers": {
+    "crons": ["*/5 * * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TVL_KV",
+      "id": "SEU_KV_ID"
+    }
+  ],
+  "vars": {
+    "ROLE_ID": "1496952791351169185"
+  }
+}
